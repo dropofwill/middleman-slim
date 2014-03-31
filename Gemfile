@@ -9,12 +9,10 @@ gem "middleman-livereload"
 
 gem "middleman-minify-html"
 
+# This requires a number of binary installs
 gem 'image_optim'
 gem "middleman-imageoptim"
 
 gem "slim"
 gem "bourbon"
 gem "neat"
-
-# gem 'therubyracer' # faster JS compiles
-# gem 'oj' # faster JS compiles

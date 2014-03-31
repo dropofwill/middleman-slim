@@ -58,6 +58,12 @@ activate :asset_hash
 # Use relative URLs
 activate :relative_assets
 
+# Add bower's directory to sprockets asset path
+after_configuration do
+  @bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
+  sprockets.append_path File.join "#{root}", @bower_config["directory"]
+end
+
 
 # Reload the browser automatically whenever files change
 configure :development do

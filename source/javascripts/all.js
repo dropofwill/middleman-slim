@@ -1,4 +1,4 @@
-//= require "lib/jquery/jquery.min"
+//= require "jquery/jquery.min"
 
 // JQuery module
 var app = (function($) {
