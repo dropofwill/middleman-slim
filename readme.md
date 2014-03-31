@@ -33,6 +33,18 @@ Static site starter template for [Middleman](http://middlemanapp.com).
   $ middleman init PROJECT_NAME --template=slim
   ```
 
+4. Run Middleman to develop locally on 0.0.0.0:4567
+  
+  ```
+  $ middleman
+  ```
+
+5. Run Middleman Build to create a production ready version in the build/ dir
+
+  ```
+  $ middleman build
+  ```
+
 ## Using Bower
 
 I've included JQuery as an example. Checkout the bower.json to change versions and .bowerrc to change the directory they're installed to.
