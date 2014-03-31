@@ -31,7 +31,7 @@ Static site starter template for [Middleman](http://middlemanapp.com).
   ```
   $ cd ~/path/to/your/project
   $ middleman init PROJECT_NAME --template=slim
-  $ rm PROJECT_NAME/.git
+  $ rm -rf PROJECT_NAME/.git
   $ git init
   ```
 
