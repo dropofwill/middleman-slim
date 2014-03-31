@@ -26,11 +26,13 @@ Static site starter template for [Middleman](http://middlemanapp.com).
   $ git clone git@github.com:dropofwill/middleman-slim.git slim
   ```
 
-3. Start your project
+3. Start your project with your own git repo
 
   ```
   $ cd ~/path/to/your/project
   $ middleman init PROJECT_NAME --template=slim
+  $ rm PROJECT_NAME/.git
+  $ git init
   ```
 
 4. Run Middleman to develop locally on 0.0.0.0:4567
