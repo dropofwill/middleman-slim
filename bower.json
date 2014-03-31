@@ -2,7 +2,6 @@
   "name": "middleman-slim-template",
   "version": "0.1",
   "dependencies": {
-    "jquery": "~2.0.3",
-    "neat": "latest"
+    "jquery": "~2.0.3"
   }
 }
