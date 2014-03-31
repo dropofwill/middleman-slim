@@ -1,4 +1,4 @@
-Middleman Slimmer
+Middleman-Slim
 ===
 Static site starter template for [Middleman](http://middlemanapp.com).
 
@@ -34,6 +34,8 @@ Static site starter template for [Middleman](http://middlemanapp.com).
   ```
 
 ## Using Bower
+
+I've included JQuery as an example. Checkout the bower.json to change versions and .bowerrc to change the directory they're installed to.
 
 1. Find and install the packages you need...
 
